@@ -15,7 +15,55 @@
     font-size: 30px;
  }
 
+ body{
+  background-color: rgb(63, 160, 245); 
+  /* background-image:url(https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=2048x2048&w=is&k=20&c=SiCdpoQwFnlm2PxkFkfhKzVOs6-9thLv0ucoREy_OWE=);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center; */
+
+ }
 .container {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+    height: 600px;
+    width: 1500px;
+}
+/* #box5{
+    margin-right: auto;
+    /* flex-grow: 3; */
+/* } */
+/* #box4{
+    margin-left: auto;
+}  */
+
+h1{
+  background-color: rgb(65, 127, 168);
+}
+h1, h2{
+    text-align: center;
+    border: 2px dotted red;
+    border-radius: 10px;
+}
+
+.card-body{
+    width: 250px;
+    border: 2px solid red;
+    background-color: rgb(183, 218, 226);
+    transition-property: backround-color;
+    transition-property: font-size;
+    transition-property: all;
+    transition-duration: 5s;
+}
+.card-body:hover{
+  background-color: aqua;
+  font-size: larger;
+  transform:rotate(180deg);
+}
+
+img{
+  width: 250px;
+  height: 200px;
 }
